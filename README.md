@@ -1,5 +1,3 @@
-# iOSBlockDemo
-iOSBlock
 # Block
 1. block的声明
 2. block捕获局部变量
