@@ -23,7 +23,7 @@ int number = 666;
 
 - (NSArray *)dataArr {
     if (!_dataArr) {
-        _dataArr = @[@"捕获局部变量",@"修改局部变量",@"blcok定义时便有了值",@"捕获局部变量",@"修改局部变量"];
+        _dataArr = @[@"捕获局部变量",@"修改局部变量",@"blcok定义时便有了值",@"捕获全局变量",@"修改全局变量"];
     }
     return _dataArr;
 }
