@@ -49,5 +49,7 @@
     1. 一个对象里面有block，block内部使用self引用该对象，会造成循环引用
     2. 原因：block内部引用的对象都是强引用
     3. 解决：使用弱指针__weak typeof(self) weakSelf = self
-
+5. 和代理的区别
+    * 代理和block都是回调的方式
+    * 区别一：block是集中代码块，而代理是分散代码块； 区别二：block成本高，因为需要栈到堆的拷贝
     
