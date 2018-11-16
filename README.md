@@ -1,4 +1,5 @@
 # Block
+后续学习的补充：关于Block的实现原理，可以看我的这篇笔记[读书笔记（二）Blocks部分](https://github.com/cxyer/iOSNote/wiki/%E3%80%8AOC%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B-iOS%E4%B8%8EOS-X%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%92%8C%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89Blocks%E9%83%A8%E5%88%86)
 1. block的声明
 2. block捕获局部变量
     1. block可以捕获局部变量
