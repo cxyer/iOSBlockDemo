@@ -30,14 +30,14 @@
         ```
         输出为666
 3. block捕获全局变量
-    1. block可以捕获局部变量
+    1. block可以捕获全局变量
         ```
         void (^test)(void) = ^(void){
             NSLog(@"%d",number);
         };
         test();
         ```
-    2. block可以修改局部变量
+    2. block可以修改全局变量
         ```
         void (^test)(void) = ^(void){
             number = 555;
